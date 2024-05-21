@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./project-root/style.css" />
+    <link rel="stylesheet" href="./project-root/animation.css" />
+    <link rel="stylesheet" href="./project-root/responsive.css" />
+  </head>
+
+  <body>
+    <!-- Navbar header section -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading">Risab Kshetri</h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Home </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#portfolio"> Portfolio </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> Services </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading">Hello, I'm</h3>
+          <h1 class="my-heading">Risab Kshetri</h1>
+          <h4 class="sub-heading">
+            A high impact web developer with 3 years of experience.
+          </h4>
+        </div>
+        <div class="intro-buttons">
+          <button class="animated-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="arr-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span class="text">Hire Me</span>
+            <span class="circle"></span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="arr-1"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+          </button>
+          <button class="button">Get my Resume</button>
+          </button>
+        </div>
+      </div>
+      <div class="bgimg">
+        <img src="./images/website-profile1.png" class="profile" alt="" />
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
+        <h1 class="my-heading text-center">Featured Portfolio</h1>
+      </div>
+      <div class="portfolio-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="book">
+              <a href="#">Check out design... </a>
+              <div class="cover">
+                  <p>Web Designing</p>
+              </div>
+             </div>
+          </div>
+          <div class="my-col">
+            <div class="book">
+              <a href="#">See my website... </a>
+              <div class="cover">
+                  <p>Web Development</p>
+              </div>
+             </div>
+          </div>
+          <div class="my-col">
+            <div class="book">
+              <a href="#">Check out my work... </a>
+              <div class="cover">
+                  <p>SEO</p>
+              </div>
+             </div>
+          </div>
+        </div>
+        <div class="my-row">
+          <div class="my-col">
+            <div class="book">
+              <a href="#">See out my content... </a>
+              <div class="cover">
+                  <p>Content Writing</p>
+              </div>
+             </div>
+          </div>
+          <div class="my-col">
+            <div class="book">
+              <a href="#">Check out my Blog... </a>
+              <div class="cover">
+                  <p>WordPress Dev</p>
+              </div>
+             </div>
+          </div>
+          <div class="my-col">
+            <div class="book">
+              <a href="#">See my video... </a>
+              <div class="cover">
+                  <p>Video Editing</p>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="about" class="about">
+      <div>
+        <h1 class="my-heading">Timeline</h1>
+      </div>
+  <div class="timeline">
+    <ul>
+      <li>
+        <span>2024</span>
+        <div class="content">
+          <h3>Mastering the Stack and Venturing Further</h3>
+          <p>
+            The current year has been a whirlwind of growth and accomplishments. I've mastered the front-end web development stack, including HTML, CSS, JavaScript, Tailwind, Bootstrap, React, and WordPress, while becoming proficient in version control systems like Git and GitHub. Collaborative learning has been a cornerstone, with contributions to open-source projects fostering knowledge sharing. Showcasing my abilities, I've built a professional portfolio website and real-world projects, while establishing an online presence through blogging and freelancing endeavors. The launch of my first personal website marked a significant entrepreneurial milestone. Currently, I'm delving into Python for backend development and exploring the fascinating field of AI, continuously expanding my horizons.
+
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>2023</span>
+        <div class="content">
+          <h3>Formal Education and Exploration</h3>
+          <p>
+            Commencing my Bachelor's in Computer Science at Manav Rachna University, I immersed myself in industry best practices while leveraging AI tools to boost productivity. This year witnessed the creation of numerous mini and large-scale projects, expanding my expertise exponentially.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>2022</span>
+        <div class="content">
+          <h3>Practical Applications</h3>
+          <p>
+            Academic excellence continued with an impressive 91.25% in 12th standard, but the true highlight was the opportunity to apply my web development knowledge through personal projects, sharpening my practical skills and problem-solving prowess.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>2020</span>
+        <div class="content">
+          <h3>Igniting the Passion</h3>
+          <p>
+            An outstanding 97.75% in 10th standard paved the way for my journey into the captivating realm of computer science. Fueled by an insatiable passion, I embarked on a self-guided exploration of web development fundamentals, igniting a lifelong love for coding.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-heading">
+        <h1 class="my-heading text-center">My Services</h1>
+      </div>
+      <div class="services-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fas fa-paint-brush"></i>
+                </div>              
+               <p>Web Design</p>
+               <p class="small">
+                Our web design services ensure a visually captivating and user-friendly online presence for your business. Our skilled designers collaborate with you to understand your brand's essence, creating a custom website that seamlessly blends aesthetics with functionality. From intuitive navigation to responsive layouts, we craft a memorable digital experience that resonates with your target audience and drives engagement.
+
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>              
+               <p>Web Development</p>
+               <p class="small">
+                
+                  Our expert web developers harness cutting-edge technologies to build robust, scalable, and secure web applications tailored to your unique business needs. Whether you require a dynamic e-commerce platform, a powerful content management system, or a custom software solution, our team combines technical expertise with creative problem-solving to deliver a high-performance, user-friendly online experience.
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>              
+               <p>SEO</p>
+               <p class="small">
+                
+                 Unlock the full potential of your online visibility with our comprehensive SEO services. Our SEO specialists employ proven strategies to optimize your website's content, structure, and technical aspects, ensuring it ranks higher in search engine results. Through meticulous keyword research, on-page optimization, and off-page tactics, we boost your online discoverability and drive qualified traffic to your website..
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+          </div>
+          <div class="my-row">
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>              
+               <p>Content Writing</p>
+               <p class="small">
+                Engaging, high-quality content is the cornerstone of effective online marketing. Our talented writers craft compelling, SEO-optimized content that captivates your audience and establishes your brand as an industry authority. From blog posts and articles to website copy and social media content, we deliver fresh, relevant, and informative materials that resonate with your target audience.
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fab fa-wordpress-simple"></i>
+                </div>              
+               <p>WordPress Dev</p>
+               <p class="small">  
+                   Leverage the power and flexibility of WordPress with our expert development services. Our skilled WordPress developers specialize in creating custom themes, plugins, and integrations tailored to your specific requirements. Whether you need an e-commerce store, a corporate website, or a dynamic blog, we ensure your WordPress site is visually stunning, user-friendly, and optimized for performance.  
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+          <div class="my-col">
+            <div class="card">
+              <a class="card1" href="#"> 
+                <div class="icon">
+                  <i class="fas fa-video"></i>
+                </div>
+               <p>Video Editing</p>
+               <p class="small">
+                
+                  Elevate your brand's storytelling and captivate your audience with our professional video editing services. Our experienced video editors transform raw footage into polished, engaging videos that effectively communicate your message. From corporate presentations and product demos to promotional videos and social media content, we deliver high-quality, visually stunning videos that leave a lasting impression.
+              </p>
+               <div class="go-corner" href="#">
+                 <div class="go-arrow">
+                   →
+                 </div>
+               </div>
+             </a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1 class="greet-heading">Get In Touch</h1>
+          <form class="contact-form">
+            <input class="form-controls" type="text" placeholder="Your Name" />
+            <input class="form-controls" type="text" placeholder="Your Email" />
+            <input class="form-controls" type="text" placeholder="Your Phone" />
+            <textarea
+              class="form-controls"
+              placeholder="Write your message"
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+            <input
+              class="form-btn btn common-btn"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="contact-details">
+          <h1 class="greet-heading">My Contact Details</h1>
+          <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">risabgc@gmail.com</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">PHONE</h5>
+            <p class="contact-text">+91 8130242851</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">FAX</h5>
+            <p class="contact-text">+91 8130242851</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">Faridabad, Hariyana</p>
+            <p>3rd Floor8 Lower</p>
+            <p>Greenfield, Gate No 4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>
+          Copyright © 2024 All rights reserved | This portfolio website
+          is created by Risab Kshetri.
+        </h4>
+        <div class="social-links">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./project-root/script.js"></script>
+  </body>
+</html>
