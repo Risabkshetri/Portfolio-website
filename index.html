@@ -60,6 +60,7 @@
           </h4>
         </div>
         <div class="intro-buttons">
+          <!-- hire me section -->
           <button class="animated-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,6 +83,27 @@
               ></path>
             </svg>
           </button>
+          <div id="formPopup" class="form-popup">
+            <div class="form-container">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="companyName">Company Name</label>
+                        <input type="text" id="companyName" name="companyName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="companyEmail">Company Email</label>
+                        <input type="email" id="companyEmail" name="companyEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactNo">Contact No</label>
+                        <input type="tel" id="contactNo" name="contactNo" required>
+                    </div>
+                    <button class="form-submit-btn" type="submit">Submit</button>
+                    <button type="button" class="form-close-btn" id="closeFormBtn">Close</button>
+                </form>
+            </div>
+        </div>
+        <!-- resume geting -->
           <button class="button">Get my Resume</button>
           </button>
         </div>
@@ -101,24 +123,24 @@
           <div class="my-col">
             <div class="book">
               <a href="#">Check out design... </a>
-              <div class="cover">
-                  <p>Web Designing</p>
+              <div class="cover" id="webdesign">
+                  <p class="port-heading">Web Designing</p>
               </div>
              </div>
           </div>
           <div class="my-col">
             <div class="book">
               <a href="#">See my website... </a>
-              <div class="cover">
-                  <p>Web Development</p>
+              <div class="cover" id="webdev">
+                  <p class="port-heading">Web Development</p>
               </div>
              </div>
           </div>
           <div class="my-col">
             <div class="book">
               <a href="#">Check out my work... </a>
-              <div class="cover">
-                  <p>SEO</p>
+              <div class="cover" id="seo">
+                  <p class="port-heading">SEO</p>
               </div>
              </div>
           </div>
@@ -127,30 +149,31 @@
           <div class="my-col">
             <div class="book">
               <a href="#">See out my content... </a>
-              <div class="cover">
-                  <p>Content Writing</p>
+              <div class="cover" id="contentWriting">
+                  <p class="port-heading">Content Writing</p>
               </div>
              </div>
           </div>
           <div class="my-col">
             <div class="book">
               <a href="#">Check out my Blog... </a>
-              <div class="cover">
-                  <p>WordPress Dev</p>
+              <div class="cover" id="wordpress">
+                  <p class="port-heading">WordPress Dev</p>
               </div>
              </div>
           </div>
           <div class="my-col">
             <div class="book">
               <a href="#">See my video... </a>
-              <div class="cover">
-                  <p>Video Editing</p>
+              <div class="cover" id="video">
+                  <p class="port-heading">Video Editing</p>
               </div>
              </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Timeline Section -->
     <section id="about" class="about">
@@ -388,22 +411,22 @@
           <div class="footer-menu">
             <ul class="footer-menu-list">
               <li class="footer-list-items">
-                <a class="footer-links" href="#">
+                <a class="footer-links" href="https://www.facebook.com/profile.php?id=100058169801597">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="footer-list-items">
-                <a class="footer-links" href="#">
+                <a class="footer-links" href="https://x.com/risab_kshetri">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li class="footer-list-items">
-                <a class="footer-links" href="#">
+                <a class="footer-links insta" href="#">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="footer-list-items">
-                <a class="footer-links" href="#">
+                <a class="footer-links" href="https://www.linkedin.com/in/risab-kshetri/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -411,6 +434,7 @@
           </div>
         </div>
       </div>
+      <button id="backToTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     </footer>
 
     <script
