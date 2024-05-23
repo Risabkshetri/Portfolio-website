@@ -1,5 +1,10 @@
 <h1>My Portfolio Website</h1>
 Welcome to my portfolio website! This repository hosts the source code for my personal website, showcasing my projects, skills, and professional background. The website aims to provide a comprehensive view of my work and capabilities to potential employers, collaborators, and clients.
+<div style="width:60px ; height:60px">
+  
+![Screenshot (119)](https://github.com/Risabkshetri/Portfolio-website/assets/155343200/0401a539-9e0a-4bb9-aa72-db6f0888460a)
+![Screenshot (120)](https://github.com/Risabkshetri/Portfolio-website/assets/155343200/0d41805b-f88a-4c4d-bfd4-b14fccc0b3da)
+
 <h1>Features</h1>
 <ul>
   <li><h3>Responsive Design</h3></li>
