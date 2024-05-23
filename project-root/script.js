@@ -61,3 +61,81 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// intro section sripting
+document.addEventListener("DOMContentLoaded", function() {
+  const skills = ["A Web Designer", "A Web Developer", "a Content Writer", "a Video Editor"];
+  let index = 0;
+  let charIndex = 0;
+  const dynamicText = document.getElementById("dynamic-text");
+
+  function typeSkill() {
+    if (charIndex < skills[index].length) {
+      dynamicText.textContent += skills[index].charAt(charIndex);
+      charIndex++;
+      setTimeout(typeSkill, 150);
+    } else {
+      setTimeout(deleteSkill, 2000);
+    }
+  }
+
+  function deleteSkill() {
+    if (charIndex > 0) {
+      dynamicText.textContent = skills[index].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(deleteSkill, 100);
+    } else {
+      index = (index + 1) % skills.length;
+      setTimeout(typeSkill, 500);
+    }
+  }
+
+  typeSkill(); 
+});
+
+// transition and tranform scripting
+document.addEventListener("DOMContentLoaded", function() {
+  const cols = document.querySelectorAll(".my-col");
+console.log(cols);
+  const options = {
+    root: null, 
+    rootMargin: "0px",
+    threshold: 0.1 
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  }, options);
+
+  cols.forEach(col => {
+    observer.observe(col);
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const intro = document.querySelector(".intro");
+
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1 
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate__animated", "animate__fadeInUp");
+        entry.target.classList.remove("hidden");
+      } else {
+        entry.target.classList.remove("animate__animated", "animate__fadeInUp");
+        entry.target.classList.add("hidden");
+      }
+    });
+  }, options);
+
+  observer.observe(intro);
+});
