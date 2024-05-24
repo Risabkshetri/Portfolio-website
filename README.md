@@ -32,5 +32,5 @@ Suggestions and improvements are welcome! Feel free to open an issue or submit a
 This project is licensed under the MIT License.
 <h1>Contact</h1>
 Reach out to me through the website's contact form or via email at 
-<a> kshetririshab@gmail.com </a>
+**kshetririshab@gmail.com**
 <h4>Thank you for visiting my portfolio website!</h4>
