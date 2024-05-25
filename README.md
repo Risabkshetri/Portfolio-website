@@ -30,5 +30,5 @@ Welcome to my portfolio website! This repository hosts the source code for my pe
 Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request.
 <h1>Contact</h1>
 Reach out to me through the website's contact form or via email at 
-<p> kshetririshab@gmail.com </p>
+<a> kshetririshab@gmail.com </a>
 <h4>Thank you for visiting my portfolio website!</h4>

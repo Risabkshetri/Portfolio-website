@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // intro section sripting
 document.addEventListener("DOMContentLoaded", function() {
-  const skills = ["A Web Designer", "A Web Developer", "a Content Writer", "a Video Editor"];
+  const skills = ["A Web Designer", "A Web Developer", "A Content Writer", "A Video Editor"];
   let index = 0;
   let charIndex = 0;
   const dynamicText = document.getElementById("dynamic-text");

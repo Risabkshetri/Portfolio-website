@@ -36,7 +36,9 @@
 	} 
 
 	.portfolio { 
-		padding: 0; 
+		padding: 0;
+		width: 95vw;
+		margin: 1rem;
 	} 
 
 	.about { 
