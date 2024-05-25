@@ -28,7 +28,13 @@ Welcome to my portfolio website! This repository hosts the source code for my pe
 </ol>
 <h1>Contributing</h1>
 Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request.
+<h1>License</h1>
+This project is licensed under the MIT License.
 <h1>Contact</h1>
 Reach out to me through the website's contact form or via email at 
+<<<<<<< HEAD
 <a> kshetririshab@gmail.com </a>
+=======
+**kshetririshab@gmail.com**
+>>>>>>> b7e136e07b707d8c9e4ffe5d91c5d388dbdb9627
 <h4>Thank you for visiting my portfolio website!</h4>
