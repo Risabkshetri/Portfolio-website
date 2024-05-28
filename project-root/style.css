@@ -385,8 +385,12 @@ body {
 } 
 
 .contact-form .form-btn { 
-	width: 83%; 
-} 
+	width: 80%;
+	background: yellow; 
+}
+.form-btn:hover{
+	background-color: #353da9;
+}
 
 .contact-details { 
 	width: 50%; 
