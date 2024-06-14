@@ -361,11 +361,15 @@ body {
 /* Contact section styles */
 .contact { 
 	padding: 0 5rem;
+	background-image: linear-gradient(90deg, #0a0101, #3e5f59, #4b184b);
+	color: white;
+	
 } 
 
 .contact-content { 
 	display: flex; 
 	margin: 3rem 0; 
+	padding-bottom: 3rem;
 	justify-content: space-between; 
 } 
 

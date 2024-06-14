@@ -27,7 +27,7 @@
     .hero { 
 		justify-content: center; 
 		color: #fff; 
-		background-image: radial-gradient(circle, rgb(15 14 14 / 40%), rgb(102 96 96 / 40%), rgb(163 160 160 / 20%)), url('/images/website-profile1.png');
+		background-image: radial-gradient(circle, rgb(15 14 14 / 40%), rgb(102 96 96 / 40%), rgb(163 160 160 / 20%)), url('/images/X-profile.png');
         background-size: cover;
         background-position: center;
         .bgimg{
@@ -77,7 +77,7 @@
 	.hero { 
 		justify-content: center; 
 		color: #fff; 
-		background-image: radial-gradient(circle, rgb(15 14 14 / 40%), rgb(102 96 96 / 40%), rgb(163 160 160 / 20%)), url('/images/website-profile1.png');
+		background-image: radial-gradient(circle, rgb(15 14 14 / 40%), rgb(102 96 96 / 40%), rgb(163 160 160 / 20%)), url('/images/X-profile.png');
         background-size: cover;
         background-position: center;
         .bgimg{
@@ -141,7 +141,7 @@
 	} 
 
 	.about .about-text { 
-		width: 90%; 
+		width: 85%; 
 		padding: 1rem; 
 	}  
 
