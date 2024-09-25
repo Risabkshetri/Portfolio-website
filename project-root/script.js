@@ -61,6 +61,16 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// get resume button handler
+document.addEventListener("DOMContentLoaded", function() {
+  const getResumeBtn = document.querySelector("#getResume");
+  getResumeBtn.addEventListener("click", function() {
+   
+    alert("Resume link coming soon!");
+
+  });
+});
+
 // intro section sripting
 document.addEventListener("DOMContentLoaded", function() {
   const skills = ["A Web Designer", "A Web Developer", "A Content Writer", "A Video Editor"];
